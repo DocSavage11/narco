@@ -1,0 +1,84 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.Footer-Container {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+
+    height: 120px;
+    width: 500px;
+
+}
+
+#Brand {
+    color: black;
+    font-family: "";
+    font-size: 20px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-top: 0px;
+}
+
+.Social-Icon-Bar {
+
+    display: flex;
+
+    padding: 5px;
+    gap: 30px;
+
+    margin: auto;
+}
+
+#SocialIcon {
+    margin: auto;
+
+    height: 25px;
+    width: 25px;
+}
+
+#Copyright {
+    color: black;
+    font-family: "";
+    font-size: 10px;
+    font-weight: 500;
+
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 520px)  {
+    .Footer-Container {
+        width: 100%;
+    }
+}
